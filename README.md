@@ -1,3 +1,3 @@
-# Gerenciamento do Manejo de Bovinos
+# BovStick - Gerenciamento do Manejo de Bovinos
 
 Pensando no manejo de bovinos, surge o problema de identificar e contabilizar os bovinos que estão envolvidos no processo. Para realizar esta atividade, existem soluções que contabilizam um bovino por vez por meio de chips e bastões de leitura.  A partir disso, o projeto em questão tem o objetivo de trazer qualidade e eficiência para esta tarefa, por meio de um bastão que faz a leitura de brincos eletrônicos (já adotados por muitos produtores agropecuaristas) por meio de sensores RFID e Arduino que captam uma grande quantidade de animais registrados em uma área de cobertura, trazendo informações relacionadas aos mesmos, em qual piquete estão alocados, quantos bovinos tem num piquete, além de outras informações.
