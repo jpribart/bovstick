@@ -1,9 +1,11 @@
-
+// Marcos Lima - Vanderlan - Marcos Berg - Jarson
 #include <SPI.h>
 #include <MFRC522.h>
+#include <SD.h>
 
+File myFile;
  
-
+RTCDateTime dataehora; 
 
 #define SS_PIN 10
 #define RST_PIN 9
@@ -18,6 +20,8 @@ int led_liberado = 5;
 int led_negado = 6;
 
 char st[20];
+
+String txt = "lista_tag_"+dataehora.year+"-"+dataehora.day+".txt";
 
 void setup() 
 {
@@ -47,7 +51,7 @@ void loop()
     return;
   }
   // Mostra UID na serial
-  Serial.print("UID da tag :");
+  Serial.print("Tag :");
   String conteudo= "";
   byte letra;
   for (byte i = 0; i < mfrc522.uid.size; i++) 
@@ -62,6 +66,86 @@ void loop()
   Serial.print("Mensagem : ");
   conteudo.toUpperCase();
   Serial.println(conteudo);
- 
-  delay(100);
+
+
+  if(GravarTag(conteudo)){
+    Serial.println("<200-OK> Tag Salva Com Sucesso");
+  }else{
+   Serial.println("Erro ao salvar a Tag");
+  }
+
+
+  delay(5);
 }
+
+
+
+bool GravarTag(tag){
+  if(VerificaTagExistente(tag)){
+
+      GravarArquivo(tag);
+  }
+}
+
+
+bool VerificaTagExistente(tag){
+   if (tag.length > 0)
+   {
+      Serial.print("tag OK...")
+    return true;
+
+   }else{
+    Serial.print("tag inexistente...")
+    return false;
+   }
+}
+
+
+String[] txtAll;
+int x =0;
+// Passar tag ja validada.
+bool GravarArquivo(tag){
+
+  if (!SD.begin(4)) {
+    Serial.println("Falha na Inicialização!");
+    return false;
+  }
+  Serial.println("Inicialização Passed.");
+  
+  arquivo = SD.open(txt, FILE_WRITE);
+   
+   
+   if(SD.exists(txt)){
+     arquivo= SD.open(txt);
+   
+      while(arquivo.read()){
+         txtAll[x] = arquivo[x];
+         x++;
+      }
+    
+    
+    for (int i = 0; i < txtAll.length; ++i)
+    {
+        arquivo.println(txtAll[0]);
+    }
+   
+     arquivo.close();
+     Serial.println("arquivo gravado com sucesso ");
+
+     return true;
+   }else{
+    Serial.println("Erro na gravacao...");
+    return false ;
+   }
+}
+
+
+bool TagExistenteTxt(int tag,int tamanho){
+ for(int x=0; x<= tamanho;x++ ){
+     if(tag[x]== )
+ }
+}
+
+
+
+
