@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BovStick.Pasto">
+    <ContentPage.Content>
+        <ScrollView VerticalOptions="StartAndExpand">
+            <Grid>
+           
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <!--0-->
+                <ColumnDefinition />
+                <!--1-->
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <!--0-->
+                <RowDefinition />
+                <!--1-->
+            </Grid.RowDefinitions>
+
+            <BoxView Grid.Column="0" Grid.Row="0" BackgroundColor="MediumSeaGreen" />
+            <BoxView Grid.Column="1" Grid.Row="1" BackgroundColor="DarkGreen" />
+
+            <BoxView Grid.Column="0" Grid.Row="1" BackgroundColor="DarkGreen" />
+            <BoxView Grid.Column="1" Grid.Row="0" BackgroundColor="DarkGreen" />
+
+                <BoxView Grid.Column="0" Grid.Row="0" BackgroundColor="MediumSeaGreen" />
+                <BoxView Grid.Column="1" Grid.Row="1" BackgroundColor="DarkGreen" />
+
+                <BoxView Grid.Column="0" Grid.Row="1" BackgroundColor="DarkGreen" />
+                <BoxView Grid.Column="1" Grid.Row="0" BackgroundColor="DarkGreen" />
+
+
+                
+                <StackLayout HorizontalOptions="Center" Grid.Column="0" Grid.Row="0">
+                
+                <Label Text="Piquete 3 - Capacidade:90 Bovinos " TextColor="White" FontSize="Large"/>
+                <Label Text="Capacidade Atual:  67 " TextColor="White" FontSize="Large"/>
+               
+            </StackLayout>
+                <StackLayout HorizontalOptions="Center" Grid.Column="1" Grid.Row="0">
+
+                    <Label Text="Piquete 7 - Capacidade:56 Bovinos " TextColor="White" FontSize="Large"/>
+                    <Label Text="Capacidade Atual:  34 " TextColor="White" FontSize="Large"/>
+
+                </StackLayout>
+
+
+
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
