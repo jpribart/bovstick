@@ -18,3 +18,23 @@ c:\users\vanderlan\documents\visual studio 2017\Projects\BovStickApi\BovStickApi
 c:\users\vanderlan\documents\visual studio 2017\Projects\BovStickApi\BovStickApi\obj\Debug\BovStickApi.csproj.CoreCompileInputs.cache
 c:\users\vanderlan\documents\visual studio 2017\Projects\BovStickApi\BovStickApi\obj\Debug\BovStickApi.dll
 c:\users\vanderlan\documents\visual studio 2017\Projects\BovStickApi\BovStickApi\obj\Debug\BovStickApi.pdb
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\bin\BovStickApi.dll.config
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\bin\BovStickApi.dll
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\bin\BovStickApi.pdb
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\bin\Newtonsoft.Json.dll
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\bin\System.Net.Http.Formatting.dll
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\bin\System.Web.Http.dll
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\bin\System.Web.Http.WebHost.dll
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\bin\Newtonsoft.Json.xml
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\bin\System.Net.Http.Formatting.xml
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\bin\System.Web.Http.xml
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\bin\System.Web.Http.WebHost.xml
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\bin\pt-br\System.Web.Http.resources.dll
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\bin\pt-br\System.Web.Http.WebHost.resources.dll
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\obj\Debug\BovStickApi.csprojResolveAssemblyReference.cache
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\obj\Debug\BovStickApi.csproj.CoreCompileInputs.cache
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\obj\Debug\BovStickApi.dll
+C:\Users\vanderlan\Documents\bovstick\BovStickApi\BovStickApi\obj\Debug\BovStickApi.pdb

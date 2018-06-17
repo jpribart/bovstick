@@ -89,6 +89,7 @@
     <Compile Include="Controllers\BovinoController.cs" />
     <Compile Include="Controllers\GestacaoController.cs" />
     <Compile Include="Controllers\PiqueteController.cs" />
+    <Compile Include="Controllers\TagController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -97,6 +98,11 @@
     <Compile Include="Models\Piquete.cs" />
     <Compile Include="Models\Tag.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositorio\Core\BovinoRepositorio.cs" />
+    <Compile Include="Repositorio\Core\GestacaoRepositorio.cs" />
+    <Compile Include="Repositorio\Core\PiqueteRepositorio.cs" />
+    <Compile Include="Repositorio\Core\TagRepositorio.cs" />
+    <Compile Include="Repositorio\IRepositorio.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
